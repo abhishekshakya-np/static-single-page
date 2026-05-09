@@ -18,6 +18,10 @@ body {
   background: var(--bg);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .page {
   width: min(960px, 92%);
   margin: 40px auto;
@@ -31,6 +35,28 @@ body {
 .hero p {
   margin: 0 0 24px;
   color: var(--muted);
+}
+
+.section-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.section-nav a {
+  text-decoration: none;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 6px 12px;
+  background: #fff;
+  color: var(--text);
+  font-size: 0.9rem;
+}
+
+.section-nav a:hover {
+  border-color: var(--accent);
+  color: var(--accent);
 }
 
 .card-grid {
