@@ -2,14 +2,14 @@
 
 A responsive FAQ accordion component built with Bootstrap 5 and custom CSS, featuring smooth animations and modern design.
 
-![FAQ Accordion](assets/images/screenshot.png)
+![FAQ Accordion](../scr/bootstrap-accordion/assets/images/screenshot.png)
 
 > **Live Demo**: [View the FAQ Accordion in action](index.html)
 
 ## 📸 Screenshots
 
 ### Desktop View
-![Desktop Design](assets/images/screenshot.png)
+![Desktop Design](../scr/bootstrap-accordion/assets/images/screenshot.png)
 
 ### Mobile View
 The accordion seamlessly adapts to mobile devices with optimized touch interactions and responsive typography.
