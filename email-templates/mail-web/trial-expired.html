@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org" lang="">
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -240,6 +240,18 @@
       margin-top: 18px;
       line-height: 1.5;
     }
+    .accent-note {
+      font-size: 15px;
+      color: #25603b;
+    }
+    .savings-note {
+      color: #25603b;
+    }
+    .confidential-note {
+      margin-top: 12px;
+      font-size: 14px;
+      color: #aaaaaa;
+    }
 
     /* Mobile responsive */
     @media only screen and (max-width: 600px) {
@@ -293,7 +305,7 @@
     <!--[if !mso]><!-->
   <div class="highlight">
     From now on, you're limited to <strong>3 questions per day</strong>.<br>
-    <span style="font-size:15px; color:#25603b;">Upgrade to unlock unlimited access and more!</span>
+    <span class="accent-note">Upgrade to unlock unlimited access and more!</span>
   </div>
 
     <p class="center-text">Don't worry — you can regain full access by subscribing below:</p>
@@ -308,7 +320,7 @@
     <h3 class="section-heading">Choose your plan:</h3>
     <ul class="benefits-list">
       <li>Monthly: <strong>$12.99/month</strong></li>
-      <li>Yearly: <strong>$129.99/year</strong> <span style="color:#25603b;">(save 17%)</span></li>
+      <li>Yearly: <strong>$129.99/year</strong> <span class="savings-note">(save 17%)</span></li>
     </ul>
 
     <div class="btn-container">
@@ -352,7 +364,7 @@
       <div class="ack">
         We acknowledge the Traditional Owners of the land and pay our respects to Elders past and present.
       </div>
-      <p style="margin-top:12px; font-size:14px; color:#aaaaaa;">This message may contain confidential information. If you received this in error, please delete it and notify the sender.</p>
+      <p class="confidential-note">This message may contain confidential information. If you received this in error, please delete it and notify the sender.</p>
     </div>
   </div>
 </div>
